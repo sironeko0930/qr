@@ -1,3 +1,22 @@
+* {
+	float: none;
+	position: static;
+}
+ 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.table {
+    display: flex;
+}
+
+.header{
+    width: 100%;
+}
+
+
 #dropdownMenuButton1 {
  clear: both;
  text-align: center;
@@ -137,6 +156,7 @@ img {
 
 
 .navbar-brand {
+    width: auto;
     font-size: 200%;
     font-weight: bold;
 }
